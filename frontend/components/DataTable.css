@@ -1,0 +1,71 @@
+.dt-group {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dt-group:last-child {
+  border-bottom: none;
+}
+
+.dt-group-label {
+  padding: 6px 20px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #9ca3af;
+  background: #f9fafb;
+}
+
+.dt-row {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  padding: 9px 20px;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 13.5px;
+}
+
+.dt-row:last-child {
+  border-bottom: none;
+}
+
+.dt-key {
+  flex: 0 0 150px;
+  font-size: 13px;
+  color: #6b7280;
+  text-transform: capitalize;
+}
+
+.dt-val {
+  flex: 1;
+  color: #111827;
+  word-break: break-word;
+}
+
+.dt-na {
+  color: #d1d5db;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.dt-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.dt-pill {
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  color: #374151;
+}
+
+.dt-nested {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 4px;
+}

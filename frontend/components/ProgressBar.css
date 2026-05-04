@@ -1,0 +1,29 @@
+.pb-wrapper { width: 100%; }
+
+.pb-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+.pb-track {
+  height: 4px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.pb-fill {
+  height: 100%;
+  background: #b45309;
+  border-radius: 999px;
+  transition: width 0.4s ease;
+  animation: pb-pulse 2s ease-in-out infinite;
+}
+
+@keyframes pb-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.55; }
+}

@@ -163,7 +163,7 @@ frontend/  → Next.js UI
 
 ---
 
-## 🛠 Future Improvements
+## Future Improvements
 
 * Streaming responses
 * Better document classification
